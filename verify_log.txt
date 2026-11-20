@@ -1,0 +1,25 @@
+PASS Eq.(1) Hamiltonian equals Pauli construction (N=6)  [1.8e-14]
+PASS reflection R commutes with W at generic l (N=8)  [3.6e-15]
+PASS R|Omega>=|Omega> (N=8)
+PASS reflection R commutes with W at generic l (N=10)  [3.6e-15]
+PASS R|Omega>=|Omega> (N=10)
+PASS closed forms a0,b1^2,a1,b2^2 (Eqs.11-12)  [max dev 1.8e-15]
+PASS short-time Eq.(13): relative error ~ t^4  [[1.7800e-07 2.8420e-06 4.4929e-05]]
+PASS Krylov dimension = D_K (N=8)  [43 vs 43]
+PASS Krylov dimension = D_K (N=10)  [142 vs 142]
+PASS Krylov dimension = D_K (N=12)  [494 vs 494]
+PASS precision convergence of C(t) (N=10, l=1/2)  [8.9e-16]
+PASS second-order shifted l3=0.6398, l5=0.5836
+PASS n=3 peak (N=12) within 1e-3 of 0.6398  [0.6400]
+PASS n=5 peak (N=10) within 2e-4 of 0.5836  [0.58350]
+PASS Rabi ladder spacing ~2x (scan_full10)  [[0.2003 0.1993]]
+PASS Rabi ladder spacing ~2x (scan_full12)  [[0.2006 0.1998]]
+PASS FWHM/Jeff in [0.7,1.4] (pi8)  [1.12]
+PASS FWHM/Jeff in [0.7,1.4] (pi10)  [1.28]
+PASS FWHM/Jeff in [0.7,1.4] (pi12)  [0.80]
+PASS FWHM/Jeff in [0.7,1.4] (pi10x05)  [1.12]
+PASS per-link complexity at l=1/2 quoted (0.080,0.136,0.209,0.276)  [[0.0796 0.1362 0.2086 0.276 ]]
+PASS per-link complexity at l=0.45 quoted (0.022,0.025,0.027,0.030)  [[0.0218 0.0247 0.0274 0.0299]]
+PASS N=12 window values 0.30/2.29/0.47  [[0.301 2.295 0.469]]
+
+23/23 checks passed
